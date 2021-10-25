@@ -1,0 +1,108 @@
+
+
+#conteneur{
+	height: 600px;
+	margin: 20px 250px 10px 250px;
+}
+
+#entete{
+	background-color: #00c6da;	
+	margin: 30px 5px 0 5px;
+	height: 110px;
+}
+
+#logo{
+	height: 110px;
+	float: left;
+	width: 10px;
+	color: black;
+	margin: 15px 0 0 15px;
+}
+
+#menu{
+	height: 60px;
+	color: white;
+}
+
+#corps{
+	height: 465px;
+	margin: 2px 5px 0 5px;
+}
+
+#div_texte{
+	height: 450px;
+	width: 450px;
+	float: left;
+	text-align: center;
+}
+
+#div_photo{
+	background-color: #c7f9fe;
+	border: 2px solid #39aafe;
+	height: 320px;
+	padding: 50px 50px 50px 500px;
+}
+
+/* Menu */
+
+li{
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;	
+	font-size: 20px;
+	padding: 15px;
+}
+
+h1{
+
+}
+
+ul{
+	list-style-type: none;
+	padding: 0 0 0 115px;
+	overflow: hidden;
+}
+
+li:hover{
+	background-color: #f297ff;
+}
+
+/* Horloge */
+
+
+.cercle{
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	background-color: #ff83c7;
+	padding: 10px;
+}
+
+#seconde{
+	margin-top: 50px;
+	float: right;
+}
+
+#jours{
+	margin: 50px 0 0 8px;
+	float: left;
+}
+
+#heures{
+	margin-top: 2px;
+	float: left;
+	margin-left: 40px;
+}
+
+#minutes{
+	margin-top: 70px;
+	margin-left: 245px;
+}
+
+#bouton{
+	font-size: 30px;
+	background-color: #c7006d;
+	border-radius: 10px;
+	margin: 49px 0 0 -155px;
+	height: 50px;
+}
